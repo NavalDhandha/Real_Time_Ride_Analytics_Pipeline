@@ -1,7 +1,8 @@
 # Uber-Project
 ## Context: 
 Ride-sharing platforms generate data from multiple systems at high speed, including trip events from applications, operational data from transactional systems, and external batch datasets used for reporting and analysis. The challenge is that this data often arrives in different formats, at different speeds, and from different sources, making it difficult to create a unified, analytics-ready foundation for business reporting, operational monitoring, and decision-making.
-This project solves that problem by building an end-to-end Azure-based data platform that ingests both real-time streaming data and batch data, processes it through a structured medallion architecture, and transforms it into business-ready datasets for analytics. Using Azure Data Factory, Event Hubs, Azure Storage, and Databricks, the solution standardizes raw inputs, creates curated silver-layer datasets, and further models the data into a star schema with fact and dimension tables for downstream BI and reporting use cases.
+
+
 The result is a scalable modern data pipeline that demonstrates how transportation or mobility data can be integrated, processed, and modeled for near real-time analytics, operational insights, and dashboard-ready consumption.
 
 **What I Solved**

@@ -2,9 +2,6 @@
 ## Context: 
 Ride-sharing platforms generate data from multiple systems at high speed, including trip events from applications, operational data from transactional systems, and external batch datasets used for reporting and analysis. The challenge is that this data often arrives in different formats, at different speeds, and from different sources, making it difficult to create a unified, analytics-ready foundation for business reporting, operational monitoring, and decision-making.
 
-
-The result is a scalable modern data pipeline that demonstrates how transportation or mobility data can be integrated, processed, and modeled for near real-time analytics, operational insights, and dashboard-ready consumption.
-
 **What I Solved**
 - Built a unified pipeline to handle both batch and streaming data
 - Automated ingestion from source systems into Azure storage
@@ -13,6 +10,8 @@ The result is a scalable modern data pipeline that demonstrates how transportati
 - Created a foundation for reporting on trips, customers, locations, and operational performance
 - Demonstrated how modern Azure services can be combined to support scalable, analytics-ready data engineering workflows
 
+
+The result is a scalable modern data pipeline that demonstrates how transportation or mobility data can be integrated, processed, and modeled for near real-time analytics, operational insights, and dashboard-ready consumption.
 
 ### Uber Project in Azure
 End-to-end Azure + Databricks project that captures **real-time ride events** from a web app via **Azure Event Hubs** and combines them with **batch reference / bulk ride data** ingested from **GitHub APIs** using **Azure Data Factory (ADF)**. The pipeline outputs both:

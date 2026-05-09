@@ -1,4 +1,4 @@
-# Uber-Project
+# Real-Time Ride Analytics Pipeline - Azure + Databricks
 ## Context: 
 Ride-sharing platforms generate data from multiple systems at high speed, including trip events from applications, operational data from transactional systems, and external batch datasets used for reporting and analysis. The challenge is that this data often arrives in different formats, at different speeds, and from different sources, making it difficult to create a unified, analytics-ready foundation for business reporting, operational monitoring, and decision-making.
 
